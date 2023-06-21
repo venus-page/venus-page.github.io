@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VENUS: A Geometrical Representation for Quantum State Visualization</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link href="./style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="container content_resize">
+                <div class="row">
+                    <div class="span10">
+                        <div id="header">
+                            <h1 style="padding-left:0; color:black;font-size:30px">VENUS: A Geometrical Representation for Quantum State Visualization</h1>
+                            <h4 style="padding-left: 0" class="authors">
+                                <a href="https://shaolun-ruan.com/" target="_blank">Shaolun Ruan</a>
+                                , <a target="_blank">Ribo Yuan</a>
+                                , <a target="_blank">Qiang Guan</a>
+                                , <a target="_blank">Yanna Lin</a>
+                                , <a target="_blank">Ying Mao</a>
+                                , <a target="_blank">Weiwen Jiang</a>
+                                , <a target="_blank">Zhepeng Wang</a>
+                                , <a target="_blank">Wei Xu</a>
+                                , <a  href="http://yong-wang.org/" target="_blank">Yong Wang</a>
+                            </h4>
+                        </div>
+                        <br>
+                        <div id="figures">
+                            <img alt="" src="./images/teaser.png" class="img-polaroid img-responsive img-thumbnail" style="margin-left: 7%" width="80%">
+                            <p style="text-align:justify; margin-top: 20px;">The visual design of VENUS which supports single-qubit (A) and two-qubit (B) state representation based on the same visualization form. <b>Line segments</b> visualize the state vector, where the black line denotes the real part, and the grey line denotes the imaginary part. <b>Semicircles’s area</b> indicates the probability of measuring the corresponding state. Triangle base’s length consistently equals to 1, because it encodes based on the constraint of normalization.</p>
+                        </div>
+                        <div id="description">
+                            <h2>Description</h2>
+                            <p style="text-align:justify">Visualizations have played a crucial role in helping quantum computing users explore quantum states in various quantum computing applications. Among them, Bloch Sphere is the widely used visualization for showing quantum states, which leverages angles to represent quantum amplitudes. However, it cannot support the visualization of quantum entanglement and superposition, the two essential properties of quantum computing. To address this issue, we propose VENUS, a novel visualization for quantum state representation. By explicitly correlating 2D geometric shapes based on the math foundation of quantum computing characteristics, VENUS effectively represents quantum amplitudes of both the single qubit and two qubits for quantum entanglement. Also, we use multiple coordinated semicircles to naturally encode probability distribution, making the quantum superposition intuitive to analyze. We conducted two well-designed case studies and an in-depth expert interview to evaluate the usefulness and effectiveness of VENUS. The result shows that VENUS can effectively facilitate the exploration of quantum states for the single qubit and two qubits.</p>
+                        </div>
+                        <div id="materials">
+                            <h2>System</h2>
+                            <p style="text-align:justify">You can access the online visual analytics system via this <a href="https://venus-interface.github.io/" class="link" target="_blank">link</a>.
+                            </br> 
+                            <span style="color: blue; font-style: italic;">(A monitor with a resolution of 1920 x 1080 is preferred.)</span>
+                        </p>
+                        </div>
+                        <!-- <div id="materials">
+                            <h2>Value</h2>
+                            <p style="text-align:justify">
+                                Our tutorial proposal "<span style="font-style: italic">QuantumFlow+VACSEN: A Visualization System for Quantum Neural Networks on Noisy Quantum Devices</span>", introducing the usage of VACSEN, has been accepted by the <i>IEEE Quantum Week 2022</i> (the IEEE International Conference on Quantum Computing and Engineering), which is a top-tier international conference in quantum computing that will be held in Broomfield, Colorado, U.S. from September 18th to 23rd, 2022. The program can be found via this <a href="https://qce.quantum.ieee.org/2022/tutorials-program/" class="link" target="_blank">link</a>.</p>
+                        </div>
+                        <div id="materials">
+                            <h2>Dataset</h2>
+                            <p style="text-align:justify"><code>IBMQ_calibration_data</code> includes the calibration data of 11 quantum computers on the IBM Quantum platform from July 2021 to January 2022. The dataset contains multiple hardware properties (e.g., decoherence time, error rate, frequency, gate time, etc.) of each quantum computer. The download link is available in the <code>Materials > Dataset</code> below.  </p>
+                        </div> -->
+                        <div id="materials">
+                            <h2>Materials</h2>
+                            <div class="materials">
+                                <a href="./docs/eurovis23a-sub1124-cam-i5.pdf" class="link" target="_blank">PDF</a>
+                                <!-- |<a href="https://github.com/VIDA-Lab/VACSEN" class="link" target="_blank">Github</a> -->
+                                |<a href="./docs/eurovis23a-sub1124-cam-i8.pdf" class="link" target="_blank">Appendix</a>
+                                | <a href="./docs/VENUS-data.rar" class="link" target="_blank">Dataset</a>
+                                <!-- | <a href="" class="link" target="_blank">Tutorial</a> -->
+                            </div>
+                        </div>
+                        <div id="publication">
+                            <h2>Publication</h2>
+                            <p>Shaolun Ruan, Ribo Yuan, Qiang Guan, Yanna Lin, Ying Mao, Weiwen Jiang, Zhepeng Wang, Wei Xu, Yong Wang. 2023.  VENUS: A Geometrical Representation for Quantum State Visualization. Computer Graphics Forum. https://diglib.eg.org/handle/10.1111/cgf14827. To Appear.</p>
+                        </div>
+                        <div id="acknowledgements">
+                            <h2>Acknowledgements</h2>
+                            <p>This work was supported by the Lee Kong Chian Fellowship awarded to Dr. Yong Wang by SMU. Qiang Guan was supported by NSF 2212465, 2230111, 2217021 and 2238734.
+                            </p>
+                        </div>
+                        </br>
+                        <div>
+                            <h2>Video</h2>
+                            <!-- <p style="text-align:justify">The demo video of VACSEN:</p> -->
+                            <iframe src="https://player.vimeo.com/video/838262752"style="width: 960px;height: 480px;" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+                <div class="footer_resize">
+                    <p class="lf">Copyright © 2023 Shaolun Ruan. All Rights Reserved.</p>
+                </div>
+                <div class="clr"></div>
+            </div>
+        </div>
+    </body>
+</html>
